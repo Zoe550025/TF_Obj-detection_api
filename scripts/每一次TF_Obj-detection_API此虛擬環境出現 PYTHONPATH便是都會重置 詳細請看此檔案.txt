@@ -1,0 +1,11 @@
+Every time the "tensorflow1" virtual environment is exited, the PYTHONPATH variable is reset and needs to be set up again. You can use "echo %PYTHONPATH% to see if it has been set or not.
+請參考https://github.com/EdjeElectronics/TensorFlow-Object-Detection-API-Tutorial-Train-Multiple-Objects-Windows-10
+的2e步驟 Note
+
+
+請重新設定下面path
+set PYTHONPATH=D:\TzuWen\tree_segmentation2\TF_Obj-dection_api\models;D:\TzuWen\tree_segmentation2\TF_Obj-dection_api\models\research;D:\TzuWen\tree_segmentation2\TF_Obj-dection_api\models\research\slim
+set PATH=%PATH%;PYTHONPATH
+
+echo %PATH%
+echo %PYTHONPATH%
